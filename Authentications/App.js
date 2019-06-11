@@ -98,7 +98,7 @@ export default class HelloFacebook extends Component {
         <GoogleSigninButton
           style={{ width: 192, height: 48 }}
           size={GoogleSigninButton.Size.Wide}
-          color={GoogleSigninButton.Color.Light}
+          color={GoogleSigninButton.Color.dark}
           onPress={this.signIn}
           disabled={this.state.isSigninInProgress}
         />
